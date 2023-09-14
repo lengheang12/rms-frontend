@@ -1,4 +1,5 @@
 import BrandLogo from "../assets/brand/brand_logo.svg";
+import { Link } from "react-router-dom";
 
 export default function LoginPage() {
   return (
@@ -79,12 +80,18 @@ export default function LoginPage() {
 
           <p className="mt-10 text-center text-sm text-gray-500">
             Don't have an account?{" "}
-            <a
-              href="#"
+            <Link
+              to="/adminDashboard"
+              className="font-semibold leading-6 text-blue-800 hover:text-blue-700"
+            >
+              Sign Up
+            </Link>
+            {/* <a
+              href="/adminDashboard"
               className="font-semibold leading-6 text-blue-800 hover:text-blue-700"
             >
               &nbsp;Sign Up
-            </a>
+            </a> */}
           </p>
         </div>
       </div>
