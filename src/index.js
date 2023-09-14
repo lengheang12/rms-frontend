@@ -18,15 +18,8 @@
 
 import React from "react";
 import ReactDOM from "react-dom";
-import { BrowserRouter as Router } from "react-router-dom";
+// import { BrowserRouter as Router } from "react-router-dom";
 import "../src/style/index.css";
-import LoginPage from "./page/LoginPage";
-import AdminDashboard from "./page/AdminDashboard";
+import App from "./App";
 
-ReactDOM.render(
-  <Router>
-    <LoginPage />
-    {/* <AdminDashboard /> */}
-  </Router>,
-  document.getElementById("root")
-);
+ReactDOM.render(<App />, document.getElementById("root"));

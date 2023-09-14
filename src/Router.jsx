@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 import LoginPage from "../src/page/LoginPage";
 import UserDashboard from "./page/UserDashboard";
-import NotFound from "";
+import NotFound from "./page/NotFound";
 import AdminDashboard from "./page/AdminDashboard";
 
 function RouterComponent() {
